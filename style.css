@@ -19,7 +19,7 @@ ACCENT COLOR: #
 }
 
 /*  MAIN-HEADER THEAT I'VE CREATED ON MY OWN  */
-.main-header {
+.nav-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,46 +29,46 @@ ACCENT COLOR: #
   margin-bottom: 80px;
 }
 
-.main-header h1 {
+.nav-header h1 {
   letter-spacing: -1.5px;
   text-transform: capitalize;
   color: #087f5b;
   margin: 0;
 }
 
-.main-header li {
+.nav-header li {
   display: flex;
   align-items: center;
   gap: 10px;
   list-style: none;
 }
 
-.main-header-links {
+.nav-links {
   display: flex;
   /* 44 / 52 / 62 / 74 / 86 / 98 */
   gap: 62px;
 }
 
-.btn--mainheader:link,
-.btn--mainheader:visited {
+.btns--nav:link,
+.btns--nav:visited {
   color: #343a40;
   font-weight: 500;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.btn--mainheader:hover,
-.btn--mainheader:active {
+.btns--nav:hover,
+.btns--nav:active {
   color: #1e2225;
   font-weight: 700;
 }
 
-.main-header-icons {
+.nav-icons {
   width: 18px;
   height: 18px;
 }
 
-.log-sign {
+.nav-reg {
   display: flex;
   gap: 16px;
 }
